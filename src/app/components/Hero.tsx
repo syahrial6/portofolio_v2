@@ -96,7 +96,7 @@ const Hero = () => {
         className="flex justify-center items-center order-1 lg:order-2"
       >
         <Image
-          src="/images/hero.JPG"
+          src="/images/hero.jpg"
           alt="hero"
           width={250}
           height={250}
