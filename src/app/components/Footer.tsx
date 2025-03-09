@@ -33,7 +33,7 @@ const sosmedVariants:sosmedVariant[] = [
 
 const Footer = () => {
   return (
-    <div className='text-white w-[90vw] m-auto p-4 mt-24 text-center font-primary lg:mb-12 mb-24'>
+    <div id='footer' className='text-white w-[90vw] m-auto p-4 mt-24 text-center font-primary lg:mb-12 mb-24'>
       <motion.p 
         variants={{
           hidden: { opacity: 0, x: -120 },

@@ -3,6 +3,10 @@ import { Files, Mail, TvMinimal, UserRound } from "lucide-react";
 import { motion } from "motion/react";
 import React, { useState } from "react";
 
+
+
+
+
 const NavItems = () => {
   return (
     <motion.div
@@ -69,9 +73,9 @@ const BottomBar = () => {
       // }}
       className="h-[10vh] w-[100vw] m-auto bg-black backdrop-blur-lg  z-50 fixed bottom-0"
     >
-      <div className="flex flex-row h-full m-auto justify-center items-center space-x-24">
+      <div className="flex flex-row h-full m-auto justify-center items-center space-x-16">
         <a
-          href="#"
+          href="#home"
           className="text-2xl font-bold text-white transform-transition duration-300  hover:text-white  hover:-translate-y-5 hover:rounded-full hover:bg-blue-500 hover:p-4 hover:border-4 border-transparent"
         >
           <TvMinimal />
@@ -89,7 +93,8 @@ const BottomBar = () => {
           <Files />
         </a>
         <a
-          href="#"
+       
+          href="#footer"
           className="text-2xl font-bold text-white transform-transition duration-300 hover:scale-125 hover:text-white hover:-translate-y-5 hover:rounded-full hover:bg-blue-500 hover:p-4 hover:border-4 border-transparent"
         >
           <Mail />

@@ -113,7 +113,7 @@ export default function Home() {
       {loading ? (
         <LoadingOverlay setLoading={setLoading} />
       ) : (
-        <div>
+        <div className="">
           <CursorBlur />
           <Navbar />
 

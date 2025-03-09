@@ -22,7 +22,7 @@ const About = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
-        className="text text-7xl font-bold">About Me</motion.p>
+        className="text lg:text-7xl text-6xl font-bold">About Me</motion.p>
         <div className="container space-y-4 pt-4">
           <motion.div
             variants={{
@@ -57,7 +57,7 @@ const About = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="ml-6 w-30 h-1 bg-white rounded-full"
           ></motion.div>
-          <div className="my-12 ml-12">
+          <div className="lg:my-12 my-6 lg:ml-12">
             <p className="text text-xl">
               Let&apos;s Get To Know About Me Better
             </p>
@@ -92,7 +92,7 @@ const About = () => {
             alt="hero"
             width={300}
             height={400}
-            className="image bg-cover absolute z-40 lg:left-36 left-16  lg:w-72 w-48 h-auto transition-all duration-500 ease-in-out hover:scale-125 grayscale hover:grayscale-0 border-5 border-white"
+            className="image bg-cover absolute z-40 lg:left-36 left-12  lg:w-72 w-48 h-auto transition-all duration-500 ease-in-out hover:scale-125 grayscale hover:grayscale-0 border-5 border-white"
           />
           </motion.div>
           <motion.div
@@ -119,7 +119,7 @@ const About = () => {
             alt="hero"
             width={300}
             height={400}
-            className="image bg-cover absolute z-30 lg:left-80 left-56 lg:top-10 top-16 lg:w-72 w-48 h-auto transition-all duration-500 ease-in-out hover:scale-125 grayscale hover:grayscale-0 border-5 border-white"
+            className="image bg-cover absolute z-30 lg:left-80 left-40 lg:top-10 top-16 lg:w-72 w-48 h-auto transition-all duration-500 ease-in-out hover:scale-125 grayscale hover:grayscale-0 border-5 border-white"
           />
           </motion.div>
           <motion.div

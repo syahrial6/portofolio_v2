@@ -19,8 +19,8 @@ const letterVariants = {
 const Hero = () => {
   const teks1 = "Front-End Developer".split("");
   return (
-    <div className="h-[100vh] grid grid-cols-1 lg:grid-cols-3 w-[90vw]  m-auto gap-4 p-4 font-primary bg-black lg:mt-0 mt-12">
-      <div className="m-auto lg:col-span-2 text-white order-2 lg:order-1 ">
+    <div id="home" className="h-[100vh] grid grid-cols-1 lg:grid-cols-3 w-[90%]  m-auto gap-4 p-4 font-primary bg-black lg:mt-0 mt-12">
+      <div className="m-auto  lg:col-span-2 col-span-1 text-white order-2 lg:order-1 ">
         <div className="text-3xl">
           <span className="inline-block">
            MUHAMMAD SYAHRIAL
@@ -55,7 +55,7 @@ const Hero = () => {
           }}
           initial="hidden"
           animate="visible"
-          className="text text-lg"
+          className="text text-lg text-justify lg:w-fit w-80"
         >
           A junior frontend developer who currently focused on Web Development.
           Other than that, I also interested in Mobile Development. I love to learn new things and always open to new

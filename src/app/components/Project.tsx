@@ -87,9 +87,7 @@ const Project = () => {
           >
             <div className="text-white text-center p-4 m-auto lg:mt-12">
               <h1 className="text-2xl font-bold mb-3">{project.title}</h1>
-              <p className="text mb-3 text-justify">
-                {project.description}
-              </p>
+             
               
               <div className="w-full flex space-y-1 flex-wrap items-center justify-center space-x-2">
                 {project.tags.map((tag, index) => (<div key={index}>
