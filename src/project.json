@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Sistem Informasi Penyewaan Stadion",
+        "description": "Sistem informasi penyewaan stadion adalah sebuah aplikasi yang digunakan untuk melakukan penyewaan stadion secara online. Aplikasi ini dibuat menggunakan bahasa pemrograman Javascipt dan database MySQL.",
+        "image": "/images/project/1.jpg",
+        "tags": ["React", "MySQL", "HTML", "JavaScript","Express.JS","Chakra UI"]
+    },
+    {
+        "title": "Sistem Rekomendasi Mata Pelajaran Minat Siswa",
+        "description": "Sistem Ini Digunakan Untuk Memilih Mata Pelajaran Sesuai Minat Siswa Dengan Bantuan API Gemini Sebagai Penentu Minat. Dibangun dengan menggunakan Next.JS dan PostgreSQL.",
+        "image": "/images/project/2.jpg",
+        "tags": ["Next.js", "PostgreSQL", "HTML", "NextAuth", "JavaScript","NextUI"]
+    },
+    {
+        "title": "Aplikasi Perpustakaan Online",
+        "description": "Aplikasi perpustakaan online adalah sebuah aplikasi yang digunakan untuk melakukan peminjaman buku secara online. Aplikasi ini dibuat menggunakan bahasa pemrograman PHP dan database MySQL.",
+       "image": "/images/project/2.jpg",
+        "tags": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"]
+    },
+    {
+        "title": "Aplikasi E-commerce",
+        "description": "Aplikasi e-commerce adalah sebuah aplikasi yang digunakan untuk melakukan transaksi online. Aplikasi ini dibuat menggunakan bahasa pemrograman PHP dan database MySQL.",
+        "image": "/images/project/1.jpg",
+        "tags": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"]
+    }
+
+]
