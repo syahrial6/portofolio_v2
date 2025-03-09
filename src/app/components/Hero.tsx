@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Typewriter from "typewriter-effect";
+
 
 const textVariants = {
   hidden: { opacity: 0 },
@@ -23,14 +23,8 @@ const Hero = () => {
       <div className="m-auto lg:col-span-2 text-white order-2 lg:order-1 ">
         <div className="text-3xl">
           <span className="inline-block">
-            <Typewriter
-              options={{
-                strings: ["MUHAMMAD SYAHRIAL"],
-                autoStart: true,
-                loop: true,
-                delay: 50,
-              }}
-            />
+           MUHAMMAD SYAHRIAL
+          
           </span>
         </div>
 
