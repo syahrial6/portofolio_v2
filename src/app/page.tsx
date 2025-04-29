@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import { useState, useEffect,useRef } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
+
 // import { useEffect } from "react";
 
 type LoadingOverlayProps = {
@@ -116,7 +117,6 @@ export default function Home() {
         <div className="">
           <CursorBlur />
           <Navbar />
-
           <Hero />
           <div className="lg:my-12 my-24">
             <About />

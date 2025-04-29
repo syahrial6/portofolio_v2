@@ -94,8 +94,9 @@ const Project = () => {
                 <p className="lg:text text-sm bg-slate-500 px-4 py-2 rounded-full">
                   {tag}
                 </p>
-               
+                  
                 </div>))}
+                <p className="text-justify">{project.description}</p>
               
               </div>
             </div>

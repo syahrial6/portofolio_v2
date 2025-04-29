@@ -50,16 +50,14 @@ const Hero = () => {
             visible: {
               opacity: 1,
               x: 0,
-              transition: { type: "spring", stiffness: 100, damping: 8 },
+              transition: { type: "spring", stiffness: 100, damping: 8,delay:2 },
             },
           }}
           initial="hidden"
           animate="visible"
           className="text text-lg text-justify lg:w-fit w-80"
         >
-          A junior frontend developer who currently focused on Web Development.
-          Other than that, I also interested in Mobile Development. I love to learn new things and always open to new
-          opportunities.
+          Seorang Junior Frontend Developer yang saat ini fokus pada Web Development. Selain itu, saya juga tertarik dalam Fullstack Development. Saya menyukai belajar hal baru dan selalu terbuka untuk peluang baru.
         </motion.p>
         <motion.div
           variants={{
@@ -74,9 +72,11 @@ const Hero = () => {
           animate="visible"
           className="flex gap-3 my-6 "
         >
+          <a target="_blank" href="https://drive.google.com/file/d/11Algz8uS0BnzgwGtz9_ERgcs9ryGbveA/view?usp=sharing">
           <button className="button cursor-pointer bg-primary px-6 py-3 rounded-3xl hover:bg-transparent border-transparent hover:border-primary border-2 ">
             Download CV
           </button>
+          </a>
           <button className="button cursor-pointer  border-2 border-primary  px-6 py-3 rounded-3xl hover:bg-primary">
             Contact Me
           </button>
@@ -88,7 +88,7 @@ const Hero = () => {
           visible: {
             opacity: 1,
             x: 0,
-            transition: { type: "spring", stiffness: 100, damping: 8 },
+            transition: { type: "spring", stiffness: 100, damping: 8,delay:1 },
           },
         }}
         initial="hidden"
