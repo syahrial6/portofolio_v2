@@ -3,9 +3,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import data from "../../project.json";
 
-
 const Project = () => {
-    console.log(data);
+  console.log(data);
   return (
     <div className="w-[90vw] m-auto p-4 text-white font-primary">
       {/* Title */}
@@ -56,52 +55,57 @@ const Project = () => {
       </div>
       <div className="container my-12 grid lg:grid-cols-2 gap-4 font-primary">
         {data.map((project, index) => (
-            <motion.div className="relative" key={index}
-            variants={{
-                hidden: { opacity: 0, x: index%2 !==0 ? 200 : -200 },
-                visible: {
-                  opacity: 1,
-                  x: 0,
-                  transition: {
-                    type: "spring",
-                    stiffness: 100,
-                    damping: 8,
-                    
-                  },
-                },
-              }}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.2 }}
-            >
-          <Image
-            src={project.image}
-            alt="project"
-            width={500}
-            height={300}
-            className="object-cover w-full h-full"
-          />
           <motion.div
-            whileHover={{ opacity: 0 }}
-            className=" inset-0 w-full h-full items-center  absolute bg-blue-500/80"
+            className="relative"
+            key={index}
+            variants={{
+              hidden: { opacity: 0, x: index % 2 !== 0 ? 200 : -200 },
+              visible: {
+                opacity: 1,
+                x: 0,
+                transition: {
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 8,
+                },
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
           >
-            <div className="text-white text-center p-4 m-auto lg:mt-12">
-              <h1 className="text-2xl font-bold mb-3">{project.title}</h1>
-             
+            <Image
+              src={project.image}
+              alt="project"
+              width={500}
+              height={300}
+              className="object-cover w-full h-full"
+            />
+            <motion.div
               
-              <div className="w-full flex space-y-1 flex-wrap items-center justify-center space-x-2">
-                {project.tags.map((tag, index) => (<div key={index}>
-                <p className="lg:text text-sm bg-slate-500 px-4 py-2 rounded-full">
-                  {tag}
-                </p>
-                  
-                </div>))}
-                <p className="text-justify">{project.description}</p>
-              
+              className=" inset-0 w-full h-full items-center  absolute bg-blue-500/80"
+            >
+              <div className="text-white text-center p-4 m-auto lg:mt-12">
+                <h1 className="text-2xl font-bold mb-3">{project.title}</h1>
+
+                <div className="w-full flex space-y-1 flex-wrap items-center justify-center space-x-2">
+                  {project.tags.map((tag, index) => (
+                    <div key={index}>
+                      <p className="lg:text text-sm bg-slate-500 px-4 py-2 rounded-full">
+                        {tag}
+                      </p>
+                    </div>
+                  ))}
+                  <p className="text-justify">{project.description}</p>
+                  <a href={project.link} target="_blank">
+                    <button className="bg-white text-black px-4 py-2 hover:cursor-pointer rounded-full">
+                      View Project
+                    </button>
+                  </a>
+                </div>
               </div>
-            </div>
+            </motion.div>
           </motion.div>
-        </motion.div>
         ))}
       </div>
     </div>
