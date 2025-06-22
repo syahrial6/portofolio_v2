@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { IoLogoJavascript, IoLogoLaravel } from "react-icons/io5";
 import {
   SiExpress,
+  SiMysql,
   SiNextdotjs,
   SiTailwindcss,
   SiTypescript,
@@ -94,6 +95,9 @@ const About = () => {
             </div>
             <div>
               <SiTypescript size={50} />
+            </div>
+            <div>
+              <SiMysql size={50} />
             </div>
             <div>
               <FaGithub size={50} />

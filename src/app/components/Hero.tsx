@@ -57,7 +57,7 @@ const Hero = () => {
           animate="visible"
           className="text text-lg text-justify lg:w-fit w-80"
         >
-          Seorang Junior Frontend Developer yang saat ini fokus pada Web Development. Selain itu, saya juga tertarik dalam Fullstack Development. Saya menyukai belajar hal baru dan selalu terbuka untuk peluang baru.
+          Saya adalah seorang web developer berpengalaman di Next.js, Laravel, dan WordPress. Saya membantu bisnis dan UMKM membangun website modern, cepat, dan mobile-friendly. Dengan desain clean dan SEO basic, saya pastikan website Anda menarik pelanggan baru. Hubungi saya untuk konsultasi gratis!
         </motion.p>
         <motion.div
           variants={{
